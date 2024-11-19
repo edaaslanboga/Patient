@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Patient.Entities
 {
-    public class LabTest :IEntity
+    public class LabTest:IEntity
 
     { 
         public int Id { get; set; }
