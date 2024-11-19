@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Patient.Entities
 {
-    public class Prescripton :IEntity
+    public class Prescripton:IEntity
     { public int Id { get; set; }
        public int  PatientId { get; set; }
        public int DoctorId { get; set; }    
