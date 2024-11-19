@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Patient.Entities
 {
-    public class ChronicCondition : IEntity
+    public class ChronicCondition: IEntity
 
     {
         public int Id { get; set; }
